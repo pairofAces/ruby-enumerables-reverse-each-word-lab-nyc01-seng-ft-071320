@@ -1,5 +1,5 @@
 def reverse_each_word(String)
   split_string = String.split(" ")
   reversed = []
-  String.size.times
-  
+  String.size.times do
+    reversed << 
