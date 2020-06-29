@@ -1,7 +1,7 @@
-def reverse_each_word(String)
-  split_string = String.split(" ")
+def reverse_each_word(string)
+  split_string = string.split(" ")
   reversed = []
-  String.size.times do
+  string.size.times do
     reversed << split_string.pop
   end
   reversed.join
