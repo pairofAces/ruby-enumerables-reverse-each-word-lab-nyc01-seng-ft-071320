@@ -4,4 +4,5 @@ def reverse_each_word(String)
   String.size.times do
     reversed << split_string.pop
   end
-  
+  reversed.join
+end
